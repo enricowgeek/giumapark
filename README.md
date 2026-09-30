@@ -24,7 +24,11 @@ L'informativa è in `privacy.html`.
 
 ## Modulo di contatto
 
-Il modulo non spedisce da solo (un sito statico non può): prepara il messaggio con quello che
-la persona ha scritto e lo fa arrivare a Tamara su WhatsApp, oppure via Gmail, Outlook o il
-programma di posta del computer. C'è sempre anche il numero di telefono e l'indirizzo email
-in chiaro, così nessuno resta senza un modo per scrivere.
+Il modulo spedisce le richieste con **Web3Forms** (servizio gratuito): arrivano come email a
+giumapark@gmail.com. La chiave del servizio sta in `index.html`, nel campo nascosto
+`access_key` del modulo.
+
+Se l'invio non riesce, nessuno resta senza un modo per scrivere: il sito prepara il messaggio
+con quello che la persona ha compilato e lo fa arrivare a Tamara su WhatsApp, oppure via Gmail,
+Outlook o il programma di posta del computer. C'è sempre anche il numero di telefono e
+l'indirizzo email in chiaro.
